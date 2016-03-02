@@ -32,8 +32,6 @@
             this.hostBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.serviceBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.userBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -60,7 +58,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(10, 267);
+            this.button1.Location = new System.Drawing.Point(11, 228);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(259, 26);
             this.button1.TabIndex = 6;
@@ -68,26 +66,10 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(98, 110);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Nombre del servicio";
-            // 
-            // serviceBox
-            // 
-            this.serviceBox.Location = new System.Drawing.Point(10, 126);
-            this.serviceBox.Name = "serviceBox";
-            this.serviceBox.Size = new System.Drawing.Size(260, 20);
-            this.serviceBox.TabIndex = 3;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(128, 157);
+            this.label3.Location = new System.Drawing.Point(127, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 6;
@@ -95,7 +77,7 @@
             // 
             // userBox
             // 
-            this.userBox.Location = new System.Drawing.Point(10, 173);
+            this.userBox.Location = new System.Drawing.Point(9, 130);
             this.userBox.Name = "userBox";
             this.userBox.Size = new System.Drawing.Size(260, 20);
             this.userBox.TabIndex = 4;
@@ -103,7 +85,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(119, 210);
+            this.label4.Location = new System.Drawing.Point(119, 169);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 8;
@@ -111,7 +93,7 @@
             // 
             // passwordBox
             // 
-            this.passwordBox.Location = new System.Drawing.Point(10, 226);
+            this.passwordBox.Location = new System.Drawing.Point(9, 185);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(260, 20);
@@ -137,15 +119,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 305);
+            this.ClientSize = new System.Drawing.Size(282, 266);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.aliasBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.userBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.serviceBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.hostBox);
@@ -165,8 +145,6 @@
         private System.Windows.Forms.TextBox hostBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox serviceBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox userBox;
         private System.Windows.Forms.Label label4;

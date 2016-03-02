@@ -42,9 +42,6 @@ namespace GeneradorScriptProcedimientosSQLServer
             else {
                 MessageBox.Show("Ese alias ya existe. Por favor, elija otro alias o elimine el existente", "Error al guardar", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
-
         }
     }
 }
