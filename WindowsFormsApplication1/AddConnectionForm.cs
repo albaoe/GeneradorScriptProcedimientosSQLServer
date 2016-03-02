@@ -15,14 +15,12 @@ namespace GeneradorScriptProcedimientosSQLServer
             string alias = "";
             string connectionString = "";
             string host = "";
-            string serviceName = "";
             string userId = "";
             string password = "";
             string cypherConnection = "";
                         
             alias = aliasBox.Text;
             host = hostBox.Text;
-            serviceName = serviceBox.Text;
             userId = userBox.Text;
             password = passwordBox.Text;
 
