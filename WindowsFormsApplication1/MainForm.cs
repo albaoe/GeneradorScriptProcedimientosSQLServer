@@ -92,6 +92,8 @@ namespace GeneradorScriptPaquetesOracle
 
             conn.Dispose();         //Cerramos la conexión
 
+            progressBar1.Value = progressBar1.Maximum;
+
             label1.Text = "¡Completado!";
 
         }
