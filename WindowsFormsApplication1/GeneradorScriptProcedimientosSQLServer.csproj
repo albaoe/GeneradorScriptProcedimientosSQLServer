@@ -7,8 +7,8 @@
     <ProjectGuid>{019568FD-7DC7-4272-A360-95682DA9C5EE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GeneradorScriptPaquetesOracle</RootNamespace>
-    <AssemblyName>GeneradorScriptPaquetesOracle</AssemblyName>
+    <RootNamespace>GeneradorScriptProcedimientosSQLServer</RootNamespace>
+    <AssemblyName>GeneradorScriptProcedimientosSQLServer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

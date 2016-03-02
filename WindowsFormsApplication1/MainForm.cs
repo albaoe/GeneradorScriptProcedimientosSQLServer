@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace GeneradorScriptPaquetesOracle
+namespace GeneradorScriptProcedimientosSQLServer
 {
     public partial class MainForm : Form
     {

@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Runtime.InteropServices;
 
-namespace GeneradorScriptPaquetesOracle
+namespace GeneradorScriptProcedimientosSQLServer
 {
     public class SecureIt
     {

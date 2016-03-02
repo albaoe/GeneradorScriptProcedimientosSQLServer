@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace GeneradorScriptPaquetesOracle
+namespace GeneradorScriptProcedimientosSQLServer
 {
     public partial class RemoveConnectionForm : Form
     {

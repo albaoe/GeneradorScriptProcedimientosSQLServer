@@ -1,4 +1,4 @@
-﻿namespace GeneradorScriptPaquetesOracle
+﻿namespace GeneradorScriptProcedimientosSQLServer
 {
     partial class AddConnectionForm
     {

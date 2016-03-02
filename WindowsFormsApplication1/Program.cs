@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 
 
-namespace GeneradorScriptPaquetesOracle
+namespace GeneradorScriptProcedimientosSQLServer
 {
     public class Program
     {

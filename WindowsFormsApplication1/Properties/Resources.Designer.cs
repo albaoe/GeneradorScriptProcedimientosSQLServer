@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GeneradorScriptPaquetesOracle.Properties {
+namespace GeneradorScriptProcedimientosSQLServer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GeneradorScriptPaquetesOracle.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GeneradorScriptPaquetesOracle.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GeneradorScriptProcedimientosSQLServer.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
