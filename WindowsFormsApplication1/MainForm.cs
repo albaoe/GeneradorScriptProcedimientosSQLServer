@@ -75,7 +75,7 @@ namespace GeneradorScriptProcedimientosSQLServer
                         if (progressBar1.Value < totalLines)
                             progressBar1.Increment(1);
                         label1.Text = proceduresNames[i] + " -> Escribiendo procedimiento...";
-                        await file.WriteAsync(dr.GetString(1));   //Escribimos en el fichero el contenido del procedimiento
+                        await file.WriteAsync(dr.GetString(1).Replace("[dbo].",""));   //Escribimos en el fichero el contenido del procedimiento
                     }
 
                     file.WriteLine(Environment.NewLine);
