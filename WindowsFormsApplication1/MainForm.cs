@@ -79,6 +79,8 @@ namespace GeneradorScriptProcedimientosSQLServer
                     }
 
                     file.WriteLine(Environment.NewLine);
+                    file.WriteLine("GO");
+                    file.WriteLine(Environment.NewLine);
 
                 }
                 catch (Exception ex)
